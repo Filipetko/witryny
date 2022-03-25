@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(19, 163, 19);
+    font-family: sans-serif;
+}
+h1
+{
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(86, 204, 86);
+    width: 350px;
+    margin: 10px auto;
+    padding: 7px;
+    border-radius: 20px;
+}
+h2
+{
+    text-align: center;
+    background-color: rgb(6, 133, 6);
+    height: auto;
+    margin: auto;
+    padding: 15px;
+}
+audio
+{
+    padding: 5px;
+}
+figure
+{
+    text-align: center;
+    margin: 30px;
+}
+img
+{
+    border-radius: 10px;
+    cursor: help;
+    opacity: 0.93;
+}
+img:hover
+{
+    opacity: 1;
+}
+figcaption
+{
+font-size: 20px;
+width: 500px;
+margin: auto;
+border-left: 7px solid red;
+border-bottom: 1px solid red;
+border-radius: 3px 13px 13px 3px;
+background-color:rgb(50, 184, 50) ;
+}
