@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+}
+div{
+    padding: 15px;
+    position: fixed;
+    right: 40%;
+    bottom: 30%;
+}
+button{
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+button#dot{
+    border: 5px dotted blue;
+}
+button#dash{
+    border: 5px dashed blue;
+}
+img{
+    position: relative;
+    left: 35px;
+    margin-top: 5px;
+}
