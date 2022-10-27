@@ -29,7 +29,7 @@ div{
     background-color: chartreuse;
     margin: 2vw;
     border-radius: 10px;
-    border: px outset brown;
+    border: 5px outset brown;
 }
 div:hover{
     background-color: chocolate;
