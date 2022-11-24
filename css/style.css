@@ -20,16 +20,19 @@ div.odn{
     padding: 15px;
     border-radius: 30px;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     text-align: center;
     color: #5a0b03;
-    font-size: 50px;
+    font-size: 4rem;
 }
 p{
     border: 2px dashed #fffac1;
     width: auto;
-    margin-right: 5px;
-    margin-left: 5px;
+    border-radius: 5px;
+    padding: 8px;
 
 }
