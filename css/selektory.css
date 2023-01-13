@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#a{
+    height: 20vh;
+    background-color: gray;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b{
+    height: 45vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#c{
+    height: 35vh;
+    width: 100vw;
+    background-color: goldenrod;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section{
+    width: 85vw;
+    height: 10vh;
+    background-color: yellow;
+}
+div.aa{
+    height: 15vh;
+    width: 85vw;
+    background-color: pink;
+}
+div.bb{
+    margin-left: 7.5vw;
+    height: 8vh;
+    width: calc(var(--n)*1vw);
+    background-color: orangered;
+}
+p{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-size: 3em;
+}
+#aa{
+    text-align: right;
+    color: white;
+    margin: 30px;
+}
+#bb{
+    text-align: left;
+    color: white;
+    margin: 30px;
+}
+p.aaa{
+    color: blue;
+}
+p.bbb{
+    color: blue;
+    text-align: left;
+    margin-left: 20px;
+}
+p.ccc{
+    text-transform: lowercase;
+    color:lightblue;
+    text-align: right;
+    margin-right: 20px;
+}
