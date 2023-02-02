@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+.pudelko{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}

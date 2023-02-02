@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.a{
+    background-color: yellow;
+    margin: 30px;
+    position: absolute;
+}
+.b{
+    background-color: red;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    border: 1px solid black;
+}
+.pi{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 100%;
+    position: absolute;
+}
+.re{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    bottom: 20%;
+    right: 20%;
+}
+.pu{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border-radius: 100%;
+    position: relative;
+    bottom: 20%;
+    right: 20%;
+}

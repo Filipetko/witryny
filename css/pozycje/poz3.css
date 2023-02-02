@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.pudelko{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: 50px;
+    border: 0px;
+}
+.y{
+    position: relative;
+    background-color: yellow;
+    top: 2px;
+}
+.b{
+    position: relative;
+    left: 200px;
+    background-color: blue;
+    top: -100px;
+}
+.r{
+    position: relative;
+    background-color: red;
+    top: -100px;
+    left: 100px;
+}
+.p{
+    position: relative;
+    background-color: purple;
+    top: -100px;
+}
+.g{
+    position: relative;
+    background-color: green;
+    top: -202px;
+    left: 200px;
+}
