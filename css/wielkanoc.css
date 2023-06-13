@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    flex-direction: column;
+}
+#z{
+    width: 40vw;
+    height: 40vh;
+    background-color: aqua;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbe89a;
+    border-radius: 15%;
+}
+i{
+    font-weight: 500;
+    font-size: 4.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffc900;
+}
+h1{
+    margin-bottom: 5vh;
+    font-size: 10vh;
+    color: #ffc1cb;
+}
+img{
+    position: absolute;
+    left: 77vw;
+    bottom: 25vh;
+    width: 20vw;
+    border-radius: 5%;
+}
