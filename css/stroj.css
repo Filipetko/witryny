@@ -1,0 +1,27 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    width: 100vw;
+    font-size: 3em;
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    width: 49vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 100%;
+}
+caption{
+    width: 100%;
+}
