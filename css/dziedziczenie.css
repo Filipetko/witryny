@@ -1,0 +1,81 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100px;
+    height: 75px;
+    border: 3px solid black;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tr{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 170px solid burlywood;
+    margin: 50px;
+}
+#kw{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin: 100px;
+
+}
+.p {
+    position: absolute;
+    width: 40px; /* dostosuj szerokość płatka według potrzeb */
+    height: 100px; /* dostosuj wysokość płatka według potrzeb */
+    background-color: transparent; /* dostosuj kolor płatka według potrzeb */
+    border-radius: 50%; /* płatek ma kształt koła */
+    
+    
+  }
+  #pl:hover + #kw .p{
+    background-color: #ffcc00;
+  }
+  .p:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%) rotate(0deg);
+  }
+  
+  .p:nth-child(2) {
+    top: 25%;
+    left: 75%;
+    transform: translateX(60%) translateY(-55%) rotate(60deg);
+  }
+  
+  .p:nth-child(3) {
+    top: 75%;
+    left: 75%;
+    transform: translateX(60%) translateY(-35%) rotate(120deg);
+  }
+  
+  .p:nth-child(4) {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20%) rotate(180deg);
+  }
+  
+  .p:nth-child(5) {
+    top: 75%;
+    left: 25%;
+    transform: translateX(-150%) translateY(-35%) rotate(240deg);
+  }
+  
+  .p:nth-child(6) {
+    top: 25%;
+    left: 25%;
+    transform: translateX(-150%) translateY(-55%) rotate(300deg);
+  }
+
+.button:hover{
+    cursor: pointer;
+}

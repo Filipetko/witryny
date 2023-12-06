@@ -1,0 +1,8 @@
+img{
+    display: block;
+    position: relative;
+}
+#p1{
+    position: fixed;
+    left: 700px;
+}

@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
     width: 100vw;
@@ -25,7 +26,7 @@ caption{
     color: beige;
     margin-bottom: 2vh;
     font-size: 2.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 td{
     background-color: aliceblue;
@@ -33,9 +34,57 @@ td{
     border: 1px black solid;
     width: 14.3%;
     height: 18%;
+    text-align: center;
 }
 th{
     background-color: red;
     padding: 0.1vw; 
     height: 10%;
+}
+.pr{
+    background-color: rgb(164, 163, 163);
+}
+#pointer{
+    width: 49px;
+    height: 62px;
+    border: 15px solid red;
+    z-index: 10;
+    position: absolute;
+    top: 336px;
+    right: 710px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+}
+#pointer::before{
+    content: " ";
+    width: 178px;
+    height: 50px;
+    display: inline-block; 
+    position: relative;
+    left: 63px;
+    top: 5px;
+    background: rgba(184, 184, 184, 0.48);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    
+}
+#pointer::after{
+    content: " ";
+    width: 174px;
+    height: 50px;
+    display: inline-block; 
+    position: relative;
+    right: 191px;
+    top: -50px;
+    background: rgba(184, 184, 184, 0.48);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    
 }
